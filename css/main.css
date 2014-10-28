@@ -27,8 +27,10 @@ img{
 }
 
 header{
+    margin-bottom: -1rem;
     background-color: #ccc;
     text-align:center;
+    z-index: 100;
 }
 
 /* NAVIGATION */
@@ -78,41 +80,74 @@ header{
 
 /*SECTIONS SMALL*/
 
-.intro{
+#intro{
     background-color: #ddd;
     width: 100%;
-    padding: 15rem;
+    padding: 15rem 0;
 }
 
-.about{
+.welcome{
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-top: -12rem;
+    text-align: center;
+}
+
+.welcome-desc{
+    font-weight: lighter;
+    font-size: 1rem;
+    margin-top: -1rem;
+    text-align: center;
+}
+
+#about{
     background-color: #eee;
     width: 100%;
-    padding: 15rem;
+    padding: 15rem 0;
 }
 
-.work{
+#work{
     background-color: #ddd;
     width: 100%;
-    padding: 15rem;
+    padding: 15rem 0;
 }
 
-.work{
-    background-color: #ddd;
-    width: 100%;
-    padding: 15rem;
-}
-
-.contact{
+#contact{
     background-color: #eee;
     width: 100%;
-    padding: 10rem;  
+    padding: 10rem 0;  
+}
+
+.about-title{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -12rem;
+}
+
+.work-title{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -12rem;
+}
+
+.contact-title{
+    font-weight: lighter;
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -7rem;
 }
 
 /* FOOTER */
 
 footer {
     text-align: center;
-    padding: 2rem;
+    padding: 2rem 0;
 }
 
 @media only screen and (min-width: 37em) {
@@ -151,7 +186,7 @@ footer {
 
 .logo{
     padding: 0;
-    margin-left: .5rem;
+    margin-left: -.2rem;
     margin-top: 1.5rem;
     width: 100px;
 }
@@ -169,27 +204,57 @@ header{
 
 /*SECTIONS MED/LRG */
 
-.intro{
+.welcome{
+    font-size: 2.5rem;
+}
+
+.welcome-desc{
+    font-size: 1.5rem;
+}
+
+.about-title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -20rem;
+}
+
+.work-title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -20rem;
+}
+
+.contact-title{
+    text-align: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-top: -15rem;
+}
+
+#intro{
+    position: relative;
     background-color: #ddd;
     width: 100%;
-    padding: 25rem;
+    padding: 28rem 0;
 }
 
-.about{
+#about{
     background-color: #eee;
     width: 100%;
-    padding: 25rem;
+    padding: 25rem 0;
 }
 
-.work{
+#work{
     background-color: #ddd;
     width: 100%;
-    padding: 25rem;
+    padding: 25rem 0;
 }
 
-.contact{
+#contact{
     background-color: #eee;
     width: 100%;
-    padding: 20rem;  
+    padding: 20rem 0;  
 }
 }
