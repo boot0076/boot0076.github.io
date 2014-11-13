@@ -256,9 +256,11 @@ img{
     text-align: center;
     padding: 5px 10px;
     border-radius: 2px;
+    font-size: .8rem;
     text-decoration: none;
     display: inline-block;
     background: #E8947D;
+    text-transform: uppercase;
     color: #fff;
 }
 
@@ -295,8 +297,7 @@ img{
     width: 86%;
     display: block;
     border: none;
-    margin-left: 1.5rem;
-    margin-top: .7rem;
+    margin-left: 7.5%;
 }
 
 .flex-control-nav {
@@ -320,13 +321,42 @@ img{
 
 /*PROJECT DESCRIPTION*/
 
+.project-title{
+    font-weight: 100;
+    margin-top: .5rem;
+    color: #fff;
+}
+
+.project-info{
+    font-weight: 100;
+    font-size: .8rem;
+    margin-top: -1rem;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+    line-height: 1.5rem;
+}
+
 .project-desc{
-    background-color: #ccc;
     width: 86%;
-    margin-left: 1.5rem;
+    margin-left: 7.5%;
+    background-color: #ccc;
     height: auto;
     float: none;
-    padding: 1rem;
+    padding-top: .5rem;
+    padding-left: 1rem;
+}
+
+.work-details {
+    padding-top: 6rem;
+    overflow: hidden;
+}
+
+.work-details[data-state="closed"]{
+    max-height: 0;
+}
+
+.work-details[data-state="open"]{
+    /*max-height: 50em;*/
 }
 
 /* FOOTER */
@@ -427,7 +457,6 @@ footer {
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    margin-top: -16rem;
 }
 
 .contact-title{
@@ -451,7 +480,6 @@ footer {
 
 #work{
     width: 100%;
-    padding: 25rem 0;
 }
 
 #contact{
@@ -512,15 +540,33 @@ footer {
 }
 
 /*SLIDER & DESC*/
+
 .flexslider {
     width: 50%;
+    float: left;
+    margin-left: 3.2rem;
 }
 
 .project-desc{
     float: right;
-    width: 30%;
+    margin-left: 0;
+    width: 32%;
+    margin-right: 3rem;
 }
 
+.grid figcaption h3 {
+    margin-top: 1.5rem;
+}
+
+.grid figcaption h4 {
+    margin-top: -1rem;
+
+}
+
+.grid figcaption a {
+    margin-top: -4rem;
+
+}
 }
 
 @media only screen and (min-width: 45em) {

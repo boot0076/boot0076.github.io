@@ -71,3 +71,25 @@ $(document).ready(function() {
         
       })
     });
+
+/* WORK SECTIONS
+---------------------------------------------------------------------------- */
+
+$(".work-btn").on("click", function(eventObject){
+
+  eventObject.preventDefault();
+
+  $('.work-details[data-state="open"]').attr("data-state", "closed");
+
+  var id= $(this).attr("href");
+  $(id).attr("data-state", "open");
+
+  $('html, body').stop().animate({
+    scrollTop: $("#work-position").offset().top
+  }, 1500,'easeInOutExpo');
+
+})
+
+$(".work-close").on("click", function(eventObject){
+  $(this).parents(".work-details").attr("data-state", "closed");
+})
