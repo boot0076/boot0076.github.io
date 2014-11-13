@@ -88,8 +88,9 @@ $(".work-btn").on("click", function(eventObject){
     scrollTop: $("#work-position").offset().top
   }, 1500,'easeInOutExpo');
 
-})
+});
 
 $(".work-close").on("click", function(eventObject){
   $(this).parents(".work-details").attr("data-state", "closed");
-})
+});
+

@@ -4,7 +4,7 @@
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
 
-html {
+html{
     box-sizing: border-box;
     -moz-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -12,7 +12,7 @@ html {
     text-size-adjust: 100%;
 }
 
-*, *:before, *:after {
+*, *:before, *:after{
     box-sizing: inherit;
 }
 
@@ -38,7 +38,7 @@ img{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
 }
 
-.header.shrink {
+.header.shrink{
     height: 80px;
     -webkit-transition: all 0.2s;
     -moz-transition: all 0.2s;
@@ -64,12 +64,12 @@ img{
     margin-right: auto;
 }
 
-.header nav {
+.header nav{
     line-height: 3rem;
     text-align: center;
 }
 
-.header nav a {
+.header nav a{
     margin-left: 20px;
     color: #E8947D;
     font-weight: 100;
@@ -166,7 +166,6 @@ img{
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    margin-top: -7rem;
 }
 
 /*ICONS SMALL*/
@@ -196,75 +195,84 @@ img{
 
 /* THUMBS */
 
-.grid {
+.grid{
     list-style: none;
     padding: 0;
     margin: 0 auto;
     text-align: center;
     width: 100%;
-    padding-top: 4rem;
+    padding-top: 1rem;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.grid li {
+.grid li{
     display: inline-block;
     margin: 10px 5px 5px 5px;
     vertical-align: top;
     position: relative;
 }
 
-.grid figure {
+.grid figure{
     margin: 0;
     position: relative;
 }
 
-.grid figure img {
+.grid figure img{
     max-width: 100%;
     display: block;
     position: relative;
 }
 
-.grid figcaption {
+.grid figcaption{
     position: absolute;
     top: 0;
     left: 0;
     padding: 20px;
-    background: #eee;
+    background: #E8947D;
     color: #000;
 }
 
-.grid figcaption h3 {
+.grid figcaption h3{
     text-transform: uppercase;
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: lighter;
     margin-top: 3rem;
     padding-bottom: .5rem;
-    color: #000;
+    color: #fff;
 }
 
-.grid figcaption h4 {
+.grid figcaption h4{
     font-style: italic;
     font-size: .9rem;
     font-weight: 100;
     padding-bottom: 1rem;
-    color: #000;
+    color: #fff;
 }
  
-.grid figcaption a {
+.grid figcaption a{
     margin-top: .5rem;
     text-align: center;
-    padding: 5px 10px;
-    border-radius: 2px;
+    padding: 1rem .5rem;
+    border-radius: 50%;
     font-size: .8rem;
     text-decoration: none;
     display: inline-block;
-    background: #E8947D;
     text-transform: uppercase;
+    border: 1px solid #fff;
     color: #fff;
 }
 
-.thumb-style figcaption {
+.grid figcaption a:hover{
+    color: #E8947D;
+}
+
+.grid figcaption a:hover{
+    background-color: #fff;
+    border: none;
+}
+
+.thumb-style figcaption{
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -274,38 +282,55 @@ img{
 }
 
 .thumb-style figure:hover figcaption,
-.thumb-style figure.thumb-style figcaption {
+.thumb-style figure.thumb-style figcaption{
     opacity: 1;
     transform: translate(7px, 7px);
 }
 
-.cs-style-1 figcaption h3 {
+.cs-style-1 figcaption h3{
     margin-top: 70px;
 }
  
-.cs-style-1 figcaption span {
+.cs-style-1 figcaption span{
     display: block;
 }
  
-.cs-style-1 figcaption a {
+.cs-style-1 figcaption a{
     margin-top: 30px;
+}
+
+.work-close{
+    border:none;
+    background-color: transparent;
+    text-indent: 100%;
+    padding: 0;
+    cursor: pointer;
+    background-image: url(../images/proj-esc.svg);
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.work-details-btn{
+    text-align: center;
+    padding: 2em;
 }
 
 /* SLIDER */
 
-.flexslider {
+.flexslider{
     width: 86%;
     display: block;
     border: none;
     margin-left: 7.5%;
 }
 
-.flex-control-nav {
+.flex-control-nav{
     z-index: 400000;
     bottom: 7px;
 }
 
-.flex-control-paging li a {
+.flex-control-paging li a{
     background: transparent;
     -webkit-box-shadow: none;
     -moz-box-shadow: none;
@@ -315,7 +340,7 @@ img{
 }
 
 .flex-control-paging li a:hover,
-.flex-control-paging li a.flex-active {
+.flex-control-paging li a.flex-active{
     background-color: #fff ;
 }
 
@@ -346,8 +371,8 @@ img{
     padding-left: 1rem;
 }
 
-.work-details {
-    padding-top: 6rem;
+.work-details{
+    position: relative;
     overflow: hidden;
 }
 
@@ -361,14 +386,14 @@ img{
 
 /* FOOTER */
 
-footer {
+footer{
     text-align: center;
     padding: 2rem 0;
 }
 
-@media only screen and (min-width: 37em) {
+@media only screen and (min-width: 37em){
 
-.header {
+.header{
     width: 100%;
     height: 150px;
     overflow: hidden;
@@ -384,11 +409,11 @@ footer {
     transition: height 0.3s;
 }
 
-.header.shrink {
+.header.shrink{
     height: 100px;
 }
 
-.logo {
+.logo{
     width: 115px;
     float: left;
     margin-left: 2rem;
@@ -400,19 +425,19 @@ footer {
     transition: all 0.3s;
 }
 
-.header.shrink img {
+.header.shrink img{
     display: block;
     margin-top: -.7rem;
     width: 80px;
 }
 
-.header nav {
+.header nav{
     display: inline-block;
     float: right;
     margin-right:2.5rem;
 }
 
-.header nav a {
+.header nav a{
     line-height: 120px;
     margin-left: 20px;
     font-weight: 200;
@@ -425,7 +450,7 @@ footer {
     transition: all 0.3s;
 }
 
-.header.shrink nav a {
+.header.shrink nav a{
     line-height: 65px;
 }
 
@@ -448,6 +473,7 @@ footer {
 }
 
 .about-title{
+    margin-top: 1rem;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
@@ -460,10 +486,8 @@ footer {
 }
 
 .contact-title{
-    text-align: center;
     font-size: 2rem;
-    text-transform: uppercase;
-    margin-top: -15rem;
+    margin-top: -5rem;
 }
 
 #intro{
@@ -484,8 +508,7 @@ footer {
 
 #contact{
     background-color: #eee;
-    width: 100%;
-    padding: 20rem 0;  
+    width: 100%; 
 }
 
 .about-para{
@@ -541,38 +564,37 @@ footer {
 
 /*SLIDER & DESC*/
 
-.flexslider {
-    width: 50%;
+.flexslider{
+    width: 70%;
+    margin-left: 15%;
     float: left;
-    margin-left: 3.2rem;
 }
 
 .project-desc{
-    float: right;
-    margin-left: 0;
-    width: 32%;
-    margin-right: 3rem;
+    float: left;
+    margin-left: 15%;
+    width: 70%;
 }
 
-.grid figcaption h3 {
+.grid figcaption h3{
     margin-top: 1.5rem;
 }
 
-.grid figcaption h4 {
+.grid figcaption h4{
     margin-top: -1rem;
 
 }
 
-.grid figcaption a {
+.grid figcaption a{
     margin-top: -4rem;
 
 }
 }
 
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 45em){
 
 .grid li{
-    width: 30%;
+    width: 40%;
 }
 
 /*ICONS LRG*/
@@ -610,7 +632,7 @@ footer {
     display: inline-block;
 }
 
-.go-top {
+.go-top{
     z-index: 10000;
     position: fixed;
     bottom: 2em;
@@ -623,16 +645,26 @@ footer {
     display: none;
 }
 
-.go-top:hover {
+.go-top:hover{
     background-color: #ccc;
 }
 
+.flexslider{
+    width: 50%;
+    margin-left: 24%;
 }
 
-@media only screen and (min-width: 64em) {
+.project-desc{
+    width: 50%;
+    margin-left: 24%;
+}
+
+}
+
+@media only screen and (min-width: 65em){
 
 .grid li{
-    width: 25%;
+    width: 20%;
 }
 
 .about-para{
@@ -657,14 +689,9 @@ footer {
     display: inline-block;
 }
 
-}
-
-@media only screen and (min-width: 70em) {
-
 .about-para{
     margin-left: 20rem;
     margin-right: 20rem;
 }
-
 
 }
