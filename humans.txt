@@ -1,0 +1,20 @@
+# PEOPLE
+
+Designer: Sarah Bootsma
+Email: hello@sarahbootsma.ca
+Location: Ottawa, Ontario, Canada
+Website: sarahbootsma.ca
+
+# THANKS
+
+Downloaded Code Thing © Some Person: http://codething.com
+Stock Image © Another Person: http://gettyimages.com
+
+# TOOLS
+Sublime Text Editor
+Github
+Hover.com
+Adobe Photoshop
+Adobe Illustrator
+
+http://schema.org/docs/schemas.html
