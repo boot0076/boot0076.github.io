@@ -462,13 +462,14 @@ button:focus {
     font-size: 1.2rem;
     margin-top: 1rem;
     margin-left: 1rem;
-    color: #fff;
+    color: #38373d;
 }
 
 .project-info{
-    font-weight: 200;
-    font-size: .8rem;
-    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: .9rem;
+    color: #38373d;
     margin-top: -1rem;
     padding: 1rem;
     line-height: 1.5rem;
