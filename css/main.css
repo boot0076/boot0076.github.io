@@ -172,7 +172,7 @@ img{
 
 .about-para{
     color: #fff;
-    padding-top: .5rem;
+    padding-top: 1rem;
     margin-left: 3rem;
     margin-right: 3rem;
     font-size: .9rem;
@@ -292,6 +292,7 @@ img{
     list-style: none;
     padding: 0;
     margin: 0 auto;
+    margin-top: 1rem;
     text-align: center;
     width: 100%;
     padding-top: 1rem;
@@ -726,6 +727,8 @@ button:focus {
 }
 
 .about-para{
+    margin-left: 5rem;
+    margin-right: 5rem;
     padding-top: 1rem;
 }
 
@@ -820,6 +823,11 @@ button:focus {
     width: 4%;
     margin-top: 1rem;
     padding-top: 5;
+}
+
+.about-para{
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .grid li{
@@ -935,8 +943,8 @@ button:focus {
 }
 
 .about-para{
-    margin-left: 25rem;
-    margin-right: 25rem;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 
 .intro-img{
@@ -977,4 +985,11 @@ button:focus {
     margin-top: 2.4rem;
     font-size: 1.2rem;
 }
+
+.about-para{
+    margin-left: 24rem;
+    margin-right: 24rem;
 }
+}
+
+
