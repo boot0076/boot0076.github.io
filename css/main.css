@@ -127,7 +127,7 @@ img{
     color: #fff;
     text-transform: uppercase;
     margin-top: 1.5rem;
-    font-size: 1.7rem;
+    font-size: 2rem;
     letter-spacing: 2px;
     text-align: center;
 }
@@ -135,8 +135,8 @@ img{
 .welcome-desc{
     color: #fff;
     font-weight: 100;
-    font-size: .9rem;
-    margin-top: -.5rem;
+    font-size: 1.1rem;
+    margin-top: -1rem;
     letter-spacing: 1.5px;
     text-align: center;
 }
@@ -256,7 +256,7 @@ img{
 
 .icons{
     display: block;
-    padding-top: 2.5rem;
+    padding-top: 1.5rem;
 }
 
 .icon-1{
