@@ -128,7 +128,7 @@ img{
     text-transform: uppercase;
     margin-top: 1.5rem;
     font-size: 2rem;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-align: center;
 }
 
@@ -163,6 +163,7 @@ img{
 .about-title{
     color: #fff;
     font-weight: 700;
+    letter-spacing: 3px;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
@@ -171,11 +172,13 @@ img{
 }
 
 .about-para{
+    font-family: "museo-slab", serif;
+    font-weight: 300;
     color: #fff;
     padding-top: 1rem;
     margin-left: 3rem;
     margin-right: 3rem;
-    font-size: .9rem;
+    font-size: 1rem;
     line-height: 1.4rem;
     letter-spacing: .8px;
 }
@@ -188,12 +191,12 @@ img{
     margin-right: 10%;
     margin-bottom: -1rem;
     font-size: .9rem;
-    letter-spacing: 1px;
     line-height: 1.5rem;
 }
 
 .work-title{
     font-weight: 700;
+    letter-spacing: 3px;
     text-align: center;
     font-size: 2rem;
     color: #38373d;
@@ -208,7 +211,7 @@ img{
     text-align: center;
     font-size: 2rem;
     color:#fff;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     text-transform: uppercase;
 }
 
@@ -563,7 +566,7 @@ button:focus {
     height: 40px;
     margin-right: 1rem;
     text-align: center;
-    padding-top: 12px;
+    padding-top: 11px;
     
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
