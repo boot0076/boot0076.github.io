@@ -123,7 +123,7 @@ img{
 }
 
 .welcome{
-    font-weight: 400;
+    font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     margin-top: 2.5rem;
@@ -162,7 +162,7 @@ img{
 
 .about-title{
     color: #fff;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
@@ -193,7 +193,7 @@ img{
 }
 
 .work-title{
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     font-size: 2rem;
     color: #38373d;
@@ -204,7 +204,7 @@ img{
 
 .contact-title{
     margin-top: 0;
-    font-weight: 400;
+    font-weight: 700;
     text-align: center;
     font-size: 2rem;
     color:#fff;
