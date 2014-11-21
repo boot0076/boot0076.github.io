@@ -236,19 +236,19 @@ img{
 .dark-border {
     display: block;
     width: 60px;
-    height: 3px;
+    height: 4px;
     background: #38373d;
     margin: 0 auto;
-    margin-top: -2rem;
+    margin-top: -1.3rem;
 }
 
 .border {
     display: block;
     width: 60px;
-    height: 3px;
+    height: 4px;
     background: #ffffff;
     margin: 0 auto;
-    margin-top: -2rem;
+    margin-top: -1.3rem;
 }
 
 /*ICONS SMALL*/
