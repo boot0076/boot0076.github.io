@@ -18,7 +18,7 @@ html{
 
 body,
 img{
-    font-family: 'Quicksand', sans-serif;
+    font-family: "brandon-grotesque",sans-serif;
     margin: 0;
     width: 100%;
 }
@@ -178,7 +178,6 @@ img{
     font-size: .9rem;
     line-height: 1.4rem;
     letter-spacing: .8px;
-    font-family: 'Raleway', sans-serif;
 }
 
 .contact-para{
@@ -191,7 +190,6 @@ img{
     font-size: .9rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
-    font-family: 'Raleway', sans-serif;
 }
 
 .work-title{
@@ -343,7 +341,6 @@ img{
     font-weight: 100;
     padding-bottom: 1rem;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
 }
  
 .grid figcaption a{
@@ -466,7 +463,6 @@ button:focus {
 }
 
 .project-info{
-    font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: .9rem;
     color: #38373d;
@@ -594,7 +590,6 @@ button:focus {
 }
 
 /* FOOTER */
-
 .footer-copy{
     text-align: center;
     font-size: .7rem;
@@ -914,7 +909,7 @@ button:focus {
 }   
 
 .work-close{
-    margin-left: 2.6rem;
+    margin-left: 3.8rem;
 } 
 
 .grid li{
@@ -956,14 +951,47 @@ button:focus {
 
 .flexslider{
     width: 40%;
-    margin-left: 11.5%;
+    margin-left: 12%;
+    margin-bottom: 0;
 }
 
+
+.proj-wrapper {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: start;
+    -moz-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-box-align: stretch;
+    -moz-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+
+
 .project-desc{
-    width: 36%;
+    width: 35%;
     margin-right: 12%;
-    float: right;
-    margin-left: 0;
+    margin-left: 5px;
 }
 
 .grid figcaption h3{
