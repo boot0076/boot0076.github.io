@@ -1,0 +1,136 @@
+html {
+  font: normal 100%/1.5;
+}
+
+@media only screen and (min-width: 60em) {
+
+  html {
+    font-size: 110%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  html {
+    font-size: 120%;
+  }
+
+}
+
+@media only screen and (min-width: 120em) {
+
+  html {
+    font-size: 130%;
+  }
+
+}
+
+h1, h2, h3, h4, h5, h6,
+p, ol, dl, dd,
+blockquote, details, hr,
+fieldset, pre, table {
+  margin: 0 0 1rem;
+}
+
+em{
+    font-style: italic;
+}
+
+
+p {
+  font-size: .9rem;
+  line-height: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.yotta {
+  font-size: 2.2807rem;
+  line-height: 1.3154;
+}
+
+.zetta {
+  font-size: 1.5rem;
+  line-height: 1.4798;
+  font-weight: 500;
+}
+
+h1, .exa {
+  font-size: 1.8020rem;
+  line-height: 1.6648;
+}
+
+h2, .peta {
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  line-height: 2;
+}
+
+h3, .tera {
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.0535;
+  letter-spacing: 1.5px;
+}
+
+h4, .giga {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  line-height: 1.4;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+h5, .mega {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.3333;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+h6, .kilo {
+  font-size: .9rem;
+  line-height: 1.5000;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+small, .milli {
+  font-size: 0.8889rem;
+  line-height: 1.6875;
+}
+
+.tiny {
+  font-size: 0.7rem;
+  line-height: 1.6875;
+}
+
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.micro {
+  font-size: 0.7901rem;
+  line-height: 1.8984;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.center {
+  text-align: center;
+}

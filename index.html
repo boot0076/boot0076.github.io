@@ -29,6 +29,8 @@
 	<!--CSS-->
 	<link rel="stylesheet" href="flexslider/flexslider.css" type="text/css">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	<link href="css/typography.css" rel="stylesheet">
 	<!--FONTS-->
 	<script src="//use.typekit.net/drh3rmj.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
@@ -44,7 +46,7 @@
 	<div class="header">
 	    <div class="container clearfix">
 	        <h1 id="logo"><a href="index.html"><img src="images/logo.svg" alt="Logo" class="logo"></a></h1>
-	        <nav>
+	        <nav class="milli center">
 	            <a href="#about">About</a>
 	            <a href="#work">Work</a>
 	            <a href="#contact">Contact</a>
@@ -54,31 +56,31 @@
 
 <!--INTRO SECTION-->
 	<section class="intro" id="intro">
-		<h2 class="welcome">Sarah Bootsma</h2>
-		<h2 class="welcome-desc">Designer & Illustrator</h2>
-		<img src="http://placehold.it/1055x560/38373d/FFFFFF" alt="img01" class="intro-img">
-		<!--<img src="images/essentials-intro.svg" alt="img01" class="intro-img">-->
-		<a href="#about" class="arrow"><img src="images/down-arrow.svg" alt="down arrow" class="down-arrow"></a>
+			<h2 class="welcome animated fadeInUp center">Sarah Bootsma</h2>
+			<h3 class="welcome-desc animated fadeInUp-2 center"><em>Designer & Illustrator</em></h3>
+		<!--<img src="http://placehold.it/1055x560/38373d/FFFFFF" alt="img01" class="intro-img">-->
+		<img src="images/intro-img.svg" alt="img01" class="intro-img animated fadeIn">
+		<a href="#about" class="arrow"><img src="images/down-arrow.svg" alt="down arrow" class="down-arrow animated bounce"></a>
 	</section>
 
 <!--ABOUT SECTION-->
 	<section class="about" id="about">
-		<h2 class="about-title">Hello</h2>
-		<span class="border"></span>
-		<div class="about-para">
-			<p>Hey, hello, my name is Sarah Bootsma. I'm a designer & illustrator currently residing in Ottawa, Canada. I'm a keen learner with a love for many different forms of design, but I have a particular passion for illustration and branding. In all of my works, I strive to create authentic, creative, and timeless pieces–paying close attention to detail. When I'm not designing, you can catch me travelling, spending time with family, or curled up with a cup of tea watching netflix.</p>
+		<h4 class="about-title center">Hello</h4>
+		<span class="dark-border"></span>
+		<div class="about-para center">
+			<p>Hey there! My name is Sarah Bootsma. I'm a designer and illustrator currently living in Ottawa, Canada. I'm a keen learner with a love for all types of design, but my biggest passions are illustration, branding, and mobile design. In all of my works, I strive to create authentic, creative, and timeless pieces–paying close attention to detail. When I'm not designing, you can catch me travelling, spending time with family, or curled up with a cup of tea watching netflix.</p>
 		</div>
 		<div class="icons">
-			<div class="icon-ill">
-				<img class="icon-1" src="images/icon-placeholder.svg" alt="">
+			<div class="icon-ill animated revealOnScroll" data-animation="flipInX">
+				<img class="icon-1" src="images/ill-icon.svg" alt="">
 				<p class="icon-title">Illustration</p>
 			</div>
-			<div class="icon-brand">
-				<img class="icon-2" src="images/icon-placeholder.svg" alt="">
+			<div class="icon-ill animated revealOnScroll" data-animation="flipInX-2">
+				<img class="icon-2" src="images/brand-icon.svg" alt="">
 				<p class="icon-title">Branding</p>
 			</div>
-			<div class="icon-print">
-				<img class="icon-3" src="images/icon-placeholder.svg" alt="">
+			<div class="icon-ill animated revealOnScroll" data-animation="flipInX-3">
+				<img class="icon-3" src="images/mobile-web-icon.svg" alt="">
 				<p class="icon-title">Web & Mobile</p>
 			</div>
 		</div>
@@ -86,16 +88,16 @@
 
 <!--WORK SECTION-->
 	<section class="work" id="work">
-		<h2 class="work-title">Work</h2>
+		<h4 class="work-title center">Work</h2>
 			<span class="dark-border"></span>
 			<ul class="grid thumb-style">
 				<li>
 					<figure>
-            			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
+            			<img src="images/pill-pal.jpg" alt="img01"/>
 	            		<figcaption>
-	                		<h3>PillPal</h3>
-	                		<h4>UI/UX, Interaction Design</h4>
-	                		<a href="#work-1" class="work-btn">View</a>
+	                		<h5 class="project-name">PillPal</h5>
+	                		<h6 class="project-tag"><em>UI/UX, Interaction Design</em></h6>
+	                		<a href="#work-pill" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>
@@ -103,39 +105,39 @@
 					<figure>
             			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
 	            		<figcaption>
-	                		<h3>The Grand Budapest Hotel</h3>
-	                		<h4>Illustration, Print</h4>
-	                		<a href="#work-2" class="work-btn">View</a>
+	                		<h5 class="project-name">Bates Motel Poster</h5>
+	                		<h6 class="project-tag"><em>Illustration, Print</em></h6>
+	                		<a href="#work-bates" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>
 				<li>
 					<figure>
-            			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
+            			<img src="images/manhattans-burgers.jpg" alt="manhattan's burgers logo"/>
 	            		<figcaption>
-	                		<h3>Manhattan's Burgers</h3>
-	                		<h4>Branding, Graphic Design</h4>
-	                		<a href="#work-3" class="work-btn">View</a>
+	                		<h5 class="project-name">Manhattan's Burgers</h5>
+	                		<h6 class="project-tag"><em>Branding, Graphic Design</em></h6>
+	                		<a href="#work-burgers" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>				
 				<li>
 					<figure>
-            			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
+            			<img src="images/budapest-poster.jpg" alt="img01"/>
 	            		<figcaption>
-	                		<h3>Bates Motel</h3>
-	                		<h4>Illustration, Print</h4>
-	                		<a href="#work-4" class="work-btn">View</a>
+	                		<h5 class="project-name">The Grand Budapest Hotel</h5>
+	                		<h6 class="project-tag"><em>Illustration, Print</em></h6>
+	                		<a href="#work-budapest" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>			
 				<li>
 					<figure>
-            			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
+            			<img src="images/piggy-market.jpg" alt="piggy market logo"/>
 	            		<figcaption>
-	                		<h3>The Piggy Market</h3>
-	                		<h4>Branding, Graphic Design</h4>
-	                		<a href="#work-5" class="work-btn">View</a>
+	                		<h5 class="project-name">The Piggy Market</h5>
+	                		<h6 class="project-tag"><em>Branding, Graphic Design</em></h6>
+	                		<a href="#work-piggy" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>
@@ -143,9 +145,19 @@
 					<figure>
             			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
 	            		<figcaption>
-	                		<h3>Let's Get Lost</h3>
-	                		<h4>Layout, Illustration</h4>
-	                		<a href="#work-6" class="work-btn">View</a>
+	                		<h5 class="project-name">Let's Get Lost</h5>
+	                		<h6 class="project-tag"><em>Layout, Illustration</em></h6>
+	                		<a href="#work-lost" class="work-btn">View</a>
+	            		</figcaption>
+					</figure>
+				</li>
+				<li>
+					<figure>
+            			<img src="images/wander-package.jpg" alt="img01"/>
+	            		<figcaption>
+	                		<h5 class="project-name">Wander Broadcast</h5>
+	                		<h6 class="project-tag"><em>Motion Graphics, Illustration</em></h6>
+	                		<a href="#work-wander" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>
@@ -153,27 +165,18 @@
 					<figure>
             			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
 	            		<figcaption>
-	                		<h3>Wander Broadcast</h3>
-	                		<h4>Motion Graphics, Illustration</h4>
-	                		<a href="#work-7" class="work-btn">View</a>
-	            		</figcaption>
-					</figure>
-				</li>
-				<li>
-					<figure>
-            			<img src="http://placehold.it/300x300/CCCCCC/FFFFFF" alt="img01"/>
-	            		<figcaption>
-	                		<h3>Fetch</h3>
-	                		<h4>UI/UX, App Design.</h4>
-	                		<a href="#work-8" class="work-btn">View</a>
+	                		<h5 class="project-name">Fetch</h5>
+	                		<h6 class="project-tag"><em>UI/UX, App Design.</em></h6>
+	                		<a href="#work-fetch" class="work-btn">View</a>
 	            		</figcaption>
 					</figure>
 				</li>
 			</ul>	
+
 <!--WORK THUMBS-->
 	<div id="work-position">
 		<!--WORK ONE-->
-		<div class="work-details" id="work-1" data-state="closed">
+		<div class="work-details" id="work-pill" data-state="closed">
 			<div class="work-details-btn">
 				<button class="work-close">close</button>
 			</div>
@@ -207,74 +210,7 @@
 	</div>
 	<!--END WORK ONE-->
 	<!--WORK TWO-->
-		<div class="work-details" id="work-2" data-state="closed">
-			<div class="work-details-btn">
-				<button class="work-close">close</button>
-			</div>
-			<!--SLIDES START HERE-->
-			<div class="proj-wrapper">
-			<div class="flexslider">
-				<ul class="slides">
-					<li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-				    
-				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-				    
-				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-
-				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-				  </ul>
-			</div>
-			<div class="project-desc">
-				<h2 class="project-title">Grand Budapest Hotel Poster</h2>
-				<p class="project-info">This is a poster I designed for the movie
-				The Grand Budapest Hotel. I incorporated some key imagery from the film into the poster–keeping it simple with a pink and blue colour scheme which allowed the main elements to pop out from the muted background.</p>
-			</div>
-		</div>
-	</div>
-	<!--END WORK TWO-->
-	<!--WORK THREE-->
-		<div class="work-details" id="work-3" data-state="closed">
-			<div class="work-details-btn">
-				<button class="work-close">close</button>
-			</div>
-			<!--SLIDES START HERE-->
-			<div class="proj-wrapper">
-			<div class="flexslider">
-				<ul class="slides">
-					<li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-				    
-				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-				    
-				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-
-				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
-				    </li>
-				  </ul>
-			</div>
-			<div class="project-desc">
-				<h2 class="project-title">Manhattan's Burgers Rebrand</h2>
-				<p class="project-info">This was a self-initiated project I created for Manhattan's Handmade Burgers, located around Ontario, Canada. I decided to take a hands on approach, by creating a handmade logotype with the use of a brush pen. I felt that this rebrand gave the company a fresher, more current look and suited the company more efficiently, to give it that handmade feel.</p>
-			</div>
-		</div>
-	</div>
-	<!--END WORK THREE-->	
-	<!--WORK FOUR-->
-		<div class="work-details" id="work-4" data-state="closed">
+		<div class="work-details" id="work-bates" data-state="closed">
 			<div class="work-details-btn">
 				<button class="work-close">close</button>
 			</div>
@@ -307,11 +243,79 @@
 				from the first season of the show. The colours chosen are based off the
 				Bates Motel signage seen throughout the seasons.</p>
 			</div>
+		</div>
+	</div>
+	<!--END WORK TWO-->
+	<!--WORK THREE-->
+		<div class="work-details" id="work-burgers" data-state="closed">
+			<div class="work-details-btn">
+				<button class="work-close">close</button>
+			</div>
+			<!--SLIDES START HERE-->
+			<div class="proj-wrapper">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+				    
+				    <li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+				    
+				    <li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+
+				    <li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+				  </ul>
+			</div>
+			<div class="project-desc">
+				<h2 class="project-title">Manhattan's Burgers Rebrand</h2>
+				<p class="project-info">This was a self-initiated project I created for Manhattan's Handmade Burgers, located around Ontario, Canada. I decided to take a hands on approach, by creating a handmade logotype with the use of a brush pen. I felt that this rebrand gave the company a fresher, more current look and suited the company more efficiently, to give it that handmade feel.</p>
+			</div>
+		</div>
+	</div>
+	<!--END WORK THREE-->	
+	<!--WORK FOUR-->
+		<div class="work-details" id="work-budapest" data-state="closed">
+			<div class="work-details-btn">
+				<button class="work-close">close</button>
+			</div>
+			<!--SLIDES START HERE-->
+			<div class="proj-wrapper">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+				    
+				    <li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+				    
+				    <li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+
+				    <li>
+				      <img src="http://placehold.it/300x300/" alt=""/>
+				    </li>
+				  </ul>
+			</div>
+			<div class="project-desc">
+				<h2 class="project-title">Grand Budapest Hotel Poster</h2>
+				<p class="project-info">This is a poster I designed for the movie
+				The Grand Budapest Hotel. I incorporated some key imagery from the film into the poster–keeping it simple with a pink and blue colour scheme which allowed the main elements to pop out from the muted background.
+				</p>
+			</div>
 			</div>
 		</div>
 	<!--END WORK FOUR-->
 	<!--WORK FIVE-->
-		<div class="work-details" id="work-5" data-state="closed">
+		<div class="work-details" id="work-piggy" data-state="closed">
 			<div class="work-details-btn">
 				<button class="work-close">close</button>
 			</div>
@@ -348,7 +352,7 @@
 		</div>
 	<!--END WORK FIVE-->
 	<!--WORK SIX-->
-		<div class="work-details" id="work-6" data-state="closed">
+		<div class="work-details" id="work-lost" data-state="closed">
 			<div class="work-details-btn">
 				<button class="work-close">close</button>
 			</div>
@@ -382,7 +386,7 @@
 		</div>
 	<!--END WORK SIX-->
 	<!--WORK SEVEN-->
-		<div class="work-details" id="work-7" data-state="closed">
+		<div class="work-details" id="work-wander" data-state="closed">
 			<div class="work-details-btn">
 				<button class="work-close">close</button>
 			</div>
@@ -415,7 +419,7 @@
 		</div>
 	<!--END WORK SEVEN-->
 	<!--WORK EIGHT-->
-		<div class="work-details" id="work-8" data-state="closed">
+		<div class="work-details" id="work-fetch" data-state="closed">
 			<div class="work-details-btn">
 				<button class="work-close">close</button>
 			</div>
@@ -452,10 +456,15 @@
 	</section>
 
 	<section class="contact" id="contact">
-		<h2 class="contact-title">Let's Chat</h2>
+		<h4 class="contact-title center">Let's Chat</h4>
 		<span class="border"></span>
-			<p class="contact-para">I'm currently available for freelance requests. </p><p class="contact-para">If you'd like to dicuss a new project, please don't hesitate to drop me a line!</p>
-			<a class="email" href="mailto:hello@sarahbootsma.ca"><p>hello@sarahbootsma.ca</p></a>
+			<div class="icon-ill animated revealOnScroll" data-animation="flipInX">
+				<img class="icon-2" src="images/icon-placeholder.svg" alt="">
+			</div>
+			<div class="contact-info center">
+				<p class="contact-para-top">I'm currently available for freelance requests. </p><p class="contact-para-btm">If you'd like to dicuss a new project, please don't hesitate to drop me a line!</p>
+			</div>
+			<a class="email" href="mailto:hello@sarahbootsma.ca"><p class="zetta center">hello@sarahbootsma.ca</p></a>
 		<div class="social-wrap">
 			<ul class="social">
 				<li>
@@ -481,7 +490,7 @@
 	</section>
 
 	<a href="#top" class="go-top">TOP</a>
-	<footer class="footer"><p class="footer-copy">©2014 Sarah Bootsma</p></footer>
+	<section class="footer"><p class="footer-copy center tiny">©2014 Sarah Bootsma</p></footer>
 
 <!--SCRIPTS-->
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
@@ -489,5 +498,6 @@
 	<script src="js/main.js"></script>
 	<script src="flexslider/jquery.flexslider.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
 </body>
 </html>
