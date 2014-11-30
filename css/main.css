@@ -113,8 +113,9 @@ img{
 /*SECTIONS SMALL*/
 
 .intro-img{
-    padding-top: 1rem;
-    width: 100%
+    padding-top: 2rem;
+    width: 90%;
+    margin-left: 5%;
 }
 
 #intro{
@@ -125,7 +126,8 @@ img{
 
 .welcome{
     color: #fff;
-    padding-top: 17rem; 
+    padding-top: 18rem;
+    font-size: 1.8rem; 
     text-align: center;
 }
 
@@ -139,14 +141,14 @@ img{
 #about{
     background-color: #e2a85d;
     width: 100%;
-    padding: 3.5rem 0;
+    padding: 4rem 0;
     text-align: center;
 }
 
 #work{
     background-color: #fcfcfc;
     width: 100%;
-    padding: 6.5rem 0;
+    padding: 8rem 0;
 }
 
 #contact{
@@ -158,14 +160,14 @@ img{
 .about-title{
     color: #38373d;
     text-transform: uppercase;
-    margin-top: 2rem;
+    margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
 
 .about-para{
     font-family: "museo-slab", sans-serif;
     color: #38373d;
-    padding-top: 1rem;
+    padding-top: 2rem;
     margin-left: 3rem;
     margin-right: 3rem;
 }
@@ -272,8 +274,8 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 1rem;
-    padding-bottom: 2.5rem;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
     width: 10%;
 }
 
@@ -453,7 +455,6 @@ button:focus {
 .project-title{
     text-transform: uppercase;
     font-weight: 500;
-    margin-left: 1rem;
     color: #38373d;
 }
 
@@ -461,7 +462,7 @@ button:focus {
     font-family: "museo-slab", sans-serif;
     color: #38373d;
     margin-top: -1rem;
-    padding: 1rem;
+    padding-top: 1rem;
 }
 
 .project-desc{
@@ -470,7 +471,6 @@ button:focus {
     /*background-color: rgb(252,252,252);*/
     height: auto;
     float: none;
-    padding-left: 1rem;
 }
 
 .work-details{
@@ -480,10 +480,20 @@ button:focus {
 
 .work-details[data-state="closed"]{
     max-height: 0;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .work-details[data-state="open"]{
-    /*max-height: 50em;*/
+    max-height: 50em;
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 /* CONTACT */
@@ -595,6 +605,14 @@ button:focus {
     margin-top: -1rem;
     padding-bottom: 3rem;
     width: 6%;
+}
+
+.welcome{
+    font-size: 2.6rem;
+}
+
+.welcome-desc{
+    margin-top: -1.7rem;
 }
 
 .work-close{
@@ -781,11 +799,6 @@ button:focus {
 }
 }
 
-@media only screen and (min-width: 40em){
-
-
-}
-
 @media only screen and (min-width: 45em){
 
 .down-arrow{
@@ -854,6 +867,7 @@ button:focus {
 .project-name{
     margin-top: 5.5rem;
 }
+
 }
 
 @media only screen and (min-width: 58em){
@@ -911,9 +925,9 @@ button:focus {
 }
 
 .intro-img{
-    width: 65%;
+    width: 80%;
     margin-top: 1rem;
-    margin-left: 18.5%;
+    margin-left: 10%;
 }
 
 .flexslider{
@@ -954,6 +968,7 @@ button:focus {
 }
 
 .project-desc{
+    padding-left: 1rem;
     width: 35%;
     margin-right: 12%;
     margin-left: 5px;
@@ -979,6 +994,19 @@ button:focus {
 }
 
 @media only screen and (min-width: 80em){
+
+.intro-img{
+    width: 65%;
+    margin-left: 17.5%;
+}
+
+.welcome-desc{
+    margin-top: -1.7rem;
+}
+
+.down-arrow{
+    padding-bottom: 4rem;
+}
 
 .project-name{
     margin-top: 2.5rem;
