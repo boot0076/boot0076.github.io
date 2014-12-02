@@ -1,7 +1,7 @@
 /* Scroll Sections
 ---------------------------------------------------------------------------- */
 $(function() {
-  $('nav a').bind('click',function(event){
+  $('nav a').on('click',function(event){
     var $anchor = $(this);
                     
     $('html, body').stop().animate({
@@ -12,7 +12,7 @@ $(function() {
 });
 
 $(function() {
-  $('.go-top').bind('click',function(event){
+  $('.go-top').on('click',function(event){
     var $anchor = $(this);
                     
     $('html, body').stop().animate({
@@ -23,7 +23,7 @@ $(function() {
 });
 
 $(function() {
-  $('.arrow').bind('click',function(event){
+  $('.arrow').on('click',function(event){
     var $anchor = $(this);
                     
     $('html, body').stop().animate({
@@ -32,7 +32,6 @@ $(function() {
         event.preventDefault();
   });
 });
-
 
 
 /* Shrink Header
@@ -101,17 +100,17 @@ $(".work-close").on("click", function(eventObject){
 
 jQuery(document).ready(function() {
     jQuery('.icon-1').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated flipInX',
+        classToAdd: 'visible animated fadeInUp',
         offset: 100
        });
 
     jQuery('.icon-2').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated flipInX',
+        classToAdd: 'visible animated fadeInUp',
         offset: 200
        });
     
     jQuery('.icon-3').addClass("hidden").viewportChecker({
-        classToAdd: 'visible animated flipInX',
+        classToAdd: 'visible animated fadeInUp',
         offset: 300
        });
         jQuery('.icon-title-1').addClass("hidden").viewportChecker({
