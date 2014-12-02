@@ -1817,7 +1817,13 @@ body { /* Addresses a small issue in webkit: http://bit.ly/NEdoDq */
     backface-visibility: visible !important;
     -webkit-animation-name: flipInX;
     animation-name: flipInX
+    -webkit-animation-delay: 2s; /* Chrome, Safari, Opera */
+    -moz-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
 }
+
 
 @-webkit-keyframes flipInY {
     0% {

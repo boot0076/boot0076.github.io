@@ -23,6 +23,13 @@ img{
     width: 100%;
 }
 
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+
 /* HEADER */
 
 .header{
@@ -120,7 +127,8 @@ img{
 
 .welcome{
     color: #fff;
-    padding-top: 18rem;
+    margin-top: 15.5rem;
+    padding-top: 2rem;
     font-size: 1.8rem; 
     text-align: center;
 }
@@ -282,7 +290,21 @@ img{
     width: 40%;
 }
 
-.icon-title{
+.icon-title-1{
+    color: #38373d;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+}
+
+.icon-title-2{
+    color: #38373d;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 2.5rem;
+}
+
+.icon-title-3{
     color: #38373d;
     font-weight: 500;
     text-transform: uppercase;
@@ -353,9 +375,9 @@ img{
 .grid figcaption a{
     margin-top: -1rem;
     text-align: center;
-    padding: 1rem .7rem;
+    padding: .6rem .3rem;
     border-radius: 50%;
-    font-size: .8rem;
+    font-size: .7rem;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
@@ -441,7 +463,7 @@ button:focus {
 
 .flex-control-nav{
     z-index: 400000;
-    bottom: 7px;
+    bottom: -5px;
 }
 
 .flex-control-paging li a{
@@ -580,7 +602,7 @@ button:focus {
     height: 40px;
     margin-right: 1rem;
     text-align: center;
-    padding-top: 11px;
+    padding-top: 8px;
     
     -webkit-border-radius:20px;
     -moz-border-radius:20px;
@@ -632,6 +654,7 @@ button:focus {
 }
 
 .welcome{
+    margin-top: 0;
     font-size: 2.6rem;
 }
 

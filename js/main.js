@@ -99,44 +99,38 @@ $(".work-close").on("click", function(eventObject){
 /* ICON ANIMATION
 ---------------------------------------------------------------------------- */
 
-$(function() {
+jQuery(document).ready(function() {
+    jQuery('.icon-1').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated flipInX',
+        offset: 100
+       });
 
-  var $window           = $(window),
-      win_height_padded = $window.height() * 1.1,
-      isTouch           = Modernizr.touch;
+    jQuery('.icon-2').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated flipInX',
+        offset: 200
+       });
+    
+    jQuery('.icon-3').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated flipInX',
+        offset: 300
+       });
+        jQuery('.icon-title-1').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp',
+        offset: 100
+       });
 
-  if (isTouch) { $('.revealOnScroll').addClass('animated'); }
+    jQuery('.icon-title-2').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp',
+        offset: 100
+       });
+    
+    jQuery('.icon-title-3').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp',
+        offset: 100
+       });
 
-  $window.on('scroll', revealOnScroll);
-
-  function revealOnScroll() {
-    var scrolled = $window.scrollTop(),
-        win_height_padded = $window.height() * 1.1;
-
-    // Showed...
-    $(".revealOnScroll:not(.animated)").each(function () {
-      var $this     = $(this),
-          offsetTop = $this.offset().top;
-
-      if (scrolled + win_height_padded > offsetTop) {
-        if ($this.data('timeout')) {
-          window.setTimeout(function(){
-            $this.addClass('animated ' + $this.data('animation'));
-          }, parseInt($this.data('timeout'),10));
-        } else {
-          $this.addClass('animated ' + $this.data('animation'));
-        }
-      }
-    });
-    // Hidden...
-   $(".revealOnScroll.animated").each(function (index) {
-      var $this     = $(this),
-          offsetTop = $this.offset().top;
-      if (scrolled + win_height_padded < offsetTop) {
-        $(this).removeClass('animated flipInX flipInX-2 flipInX-3')
-      }
-    });
-  }
-
-  revealOnScroll();
+    jQuery('.about-para').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated fadeIn',
+        offset: 100
+       });                 
 });
