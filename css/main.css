@@ -482,7 +482,7 @@ button:focus {
 .project-info{
     font-family: "museo-slab", sans-serif;
     color: #38373d;
-    font-size: .8rem;
+    font-size: .7rem;
     margin-left: 1rem;
     margin-right: 1.5rem;
     margin-top: -1rem;
@@ -611,14 +611,13 @@ button:focus {
 
 .footer{
     background-color: #fff;
-    padding: .5rem;
 }
 
 .footer-copy{
     color: #38373d;
     text-align: center;
     font-size: .7rem;
-    padding: 1rem 0;
+    margin-top: 1.5rem;
 }
 
 @media only screen and (min-width: 37em){
@@ -708,7 +707,7 @@ button:focus {
 }
 
 .welcome{
-    padding-top: 13rem;
+    padding-top: 12rem;
 }
 
 .welcome-desc{
@@ -1052,8 +1051,8 @@ button:focus {
 }
 
 .about-para{
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin-left: 17rem;
+    margin-right: 17rem;
 }
 }
 
