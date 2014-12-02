@@ -1,0 +1,200 @@
+body { 
+  background-color: #e2a85d; 
+  color: #38373d;
+  font-size: 100%;
+  font-family: "brandon-grotesque",sans-serif;
+}
+
+h1 {  
+  text-align: center;
+  font-size: 9em;
+  margin-left: -3rem;
+  font-weight: 100;
+  text-shadow: rgb(192, 143, 79) 1px 1px,
+    rgb(192, 143, 79) 2px 2px,
+    rgb(192, 143, 79) 3px 3px,
+    rgb(192, 143, 79) 4px 4px,
+    rgb(193, 143, 79) 5px 5px,
+    rgb(193, 143, 79) 6px 6px,
+    rgb(193, 144, 79) 7px 7px,
+    rgb(193, 144, 79) 8px 8px,
+    rgb(194, 144, 79) 9px 9px,
+    rgb(194, 144, 79) 10px 10px,
+    rgb(194, 144, 80) 11px 11px,
+    rgb(194, 144, 80) 12px 12px,
+    rgb(194, 145, 80) 13px 13px,
+    rgb(195, 145, 80) 14px 14px,
+    rgb(195, 145, 80) 15px 15px,
+    rgb(195, 145, 80) 16px 16px,
+    rgb(195, 145, 80) 17px 17px,
+    rgb(196, 145, 80) 18px 18px,
+    rgb(196, 146, 80) 19px 19px,
+    rgb(196, 146, 80) 20px 20px,
+    rgb(196, 146, 80) 21px 21px,
+    rgb(196, 146, 81) 22px 22px,
+    rgb(197, 146, 81) 23px 23px,
+    rgb(197, 146, 81) 24px 24px,
+    rgb(197, 147, 81) 25px 25px,
+    rgb(197, 147, 81) 26px 26px,
+    rgb(198, 147, 81) 27px 27px,
+    rgb(198, 147, 81) 28px 28px,
+    rgb(198, 147, 81) 29px 29px,
+    rgb(198, 147, 81) 30px 30px,
+    rgb(198, 148, 81) 31px 31px,
+    rgb(199, 148, 81) 32px 32px,
+    rgb(199, 148, 82) 33px 33px,
+    rgb(199, 148, 82) 34px 34px,
+    rgb(199, 148, 82) 35px 35px,
+    rgb(200, 148, 82) 36px 36px,
+    rgb(200, 149, 82) 37px 37px,
+    rgb(200, 149, 82) 38px 38px,
+    rgb(200, 149, 82) 39px 39px,
+    rgb(201, 149, 82) 40px 40px,
+    rgb(201, 149, 82) 41px 41px,
+    rgb(201, 149, 82) 42px 42px,
+    rgb(201, 150, 82) 43px 43px,
+    rgb(201, 150, 83) 44px 44px,
+    rgb(202, 150, 83) 45px 45px,
+    rgb(202, 150, 83) 46px 46px,
+    rgb(202, 150, 83) 47px 47px,
+    rgb(202, 150, 83) 48px 48px,
+    rgb(203, 151, 83) 49px 49px,
+    rgb(203, 151, 83) 50px 50px,
+    rgb(203, 151, 83) 51px 51px,
+    rgb(203, 151, 83) 52px 52px,
+    rgb(203, 151, 83) 53px 53px,
+    rgb(204, 151, 84) 54px 54px,
+    rgb(204, 152, 84) 55px 55px,
+    rgb(204, 152, 84) 56px 56px,
+    rgb(204, 152, 84) 57px 57px,
+    rgb(205, 152, 84) 58px 58px,
+    rgb(205, 152, 84) 59px 59px,
+    rgb(205, 152, 84) 60px 60px,
+    rgb(205, 153, 84) 61px 61px,
+    rgb(205, 153, 84) 62px 62px,
+    rgb(206, 153, 84) 63px 63px,
+    rgb(206, 153, 84) 64px 64px,
+    rgb(206, 153, 85) 65px 65px,
+    rgb(206, 153, 85) 66px 66px,
+    rgb(207, 154, 85) 67px 67px,
+    rgb(207, 154, 85) 68px 68px,
+    rgb(207, 154, 85) 69px 69px,
+    rgb(207, 154, 85) 70px 70px,
+    rgb(207, 154, 85) 71px 71px,
+    rgb(208, 154, 85) 72px 72px,
+    rgb(208, 155, 85) 73px 73px,
+    rgb(208, 155, 85) 74px 74px,
+    rgb(208, 155, 85) 75px 75px,
+    rgb(209, 155, 86) 76px 76px,
+    rgb(209, 155, 86) 77px 77px,
+    rgb(209, 155, 86) 78px 78px,
+    rgb(209, 156, 86) 79px 79px,
+    rgb(210, 156, 86) 80px 80px,
+    rgb(210, 156, 86) 81px 81px,
+    rgb(210, 156, 86) 82px 82px,
+    rgb(210, 156, 86) 83px 83px,
+    rgb(210, 156, 86) 84px 84px,
+    rgb(211, 157, 86) 85px 85px,
+    rgb(211, 157, 86) 86px 86px,
+    rgb(211, 157, 87) 87px 87px,
+    rgb(211, 157, 87) 88px 88px,
+    rgb(212, 157, 87) 89px 89px,
+    rgb(212, 157, 87) 90px 90px,
+    rgb(212, 158, 87) 91px 91px,
+    rgb(212, 158, 87) 92px 92px,
+    rgb(212, 158, 87) 93px 93px,
+    rgb(213, 158, 87) 94px 94px,
+    rgb(213, 158, 87) 95px 95px,
+    rgb(213, 158, 87) 96px 96px,
+    rgb(213, 159, 87) 97px 97px,
+    rgb(214, 159, 88) 98px 98px,
+    rgb(214, 159, 88) 99px 99px,
+    rgb(214, 159, 88) 100px 100px,
+    rgb(214, 159, 88) 101px 101px,
+    rgb(214, 159, 88) 102px 102px,
+    rgb(215, 160, 88) 103px 103px,
+    rgb(215, 160, 88) 104px 104px,
+    rgb(215, 160, 88) 105px 105px,
+    rgb(215, 160, 88) 106px 106px,
+    rgb(216, 160, 88) 107px 107px,
+    rgb(216, 160, 89) 108px 108px,
+    rgb(216, 161, 89) 109px 109px,
+    rgb(216, 161, 89) 110px 110px,
+    rgb(216, 161, 89) 111px 111px,
+    rgb(217, 161, 89) 112px 112px,
+    rgb(217, 161, 89) 113px 113px,
+    rgb(217, 161, 89) 114px 114px,
+    rgb(217, 162, 89) 115px 115px,
+    rgb(218, 162, 89) 116px 116px,
+    rgb(218, 162, 89) 117px 117px,
+    rgb(218, 162, 89) 118px 118px,
+    rgb(218, 162, 90) 119px 119px,
+    rgb(219, 162, 90) 120px 120px,
+    rgb(219, 163, 90) 121px 121px,
+    rgb(219, 163, 90) 122px 122px,
+    rgb(219, 163, 90) 123px 123px,
+    rgb(219, 163, 90) 124px 124px,
+    rgb(220, 163, 90) 125px 125px,
+    rgb(220, 163, 90) 126px 126px,
+    rgb(220, 164, 90) 127px 127px,
+    rgb(220, 164, 90) 128px 128px,
+    rgb(221, 164, 90) 129px 129px,
+    rgb(221, 164, 91) 130px 130px,
+    rgb(221, 164, 91) 131px 131px,
+    rgb(221, 164, 91) 132px 132px,
+    rgb(221, 165, 91) 133px 133px,
+    rgb(222, 165, 91) 134px 134px,
+    rgb(222, 165, 91) 135px 135px,
+    rgb(222, 165, 91) 136px 136px,
+    rgb(222, 165, 91) 137px 137px,
+    rgb(223, 165, 91) 138px 138px,
+    rgb(223, 166, 91) 139px 139px,
+    rgb(223, 166, 91) 140px 140px,
+    rgb(223, 166, 92) 141px 141px,
+    rgb(223, 166, 92) 142px 142px,
+    rgb(224, 166, 92) 143px 143px,
+    rgb(224, 166, 92) 144px 144px,
+    rgb(224, 167, 92) 145px 145px,
+    rgb(224, 167, 92) 146px 146px,
+    rgb(225, 167, 92) 147px 147px,
+    rgb(225, 167, 92) 148px 148px,
+    rgb(225, 167, 92) 149px 149px,
+    rgb(225, 167, 92) 150px 150px,
+    rgb(226, 168, 93) 151px 151px;
+}
+
+p {
+  padding-top: 1rem;
+  text-align: center;
+}
+
+p a{
+  text-decoration: none;
+  color: #38373d;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+p a:hover{
+  color: #fff;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.nothing{
+  margin-top: -1rem;
+}
+
+@media only screen and (min-width: 37em){
+
+h1 {
+  font-size: 15rem;
+  margin-left: -3rem;
+  margin-bottom: 6rem;
+}
+
+}
+

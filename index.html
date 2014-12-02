@@ -34,8 +34,6 @@
 	<!--FONTS-->
 	<script src="//use.typekit.net/drh3rmj.js"></script>
 	<script>try{Typekit.load();}catch(e){}</script>
-	<!--<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Quicksand:300,400' rel='stylesheet' type='text/css'>-->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css" rel="stylesheet">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
@@ -56,8 +54,8 @@
 
 <!--INTRO SECTION-->
 	<section class="intro" id="intro">
-			<h2 class="welcome animated fadeInUp center">Sarah Bootsma</h2>
-			<h3 class="welcome-desc animated fadeInUp-2 center"><em>Designer & Illustrator</em></h3>
+			<h2 class="welcome center">Sarah Bootsma</h2>
+			<h3 class="welcome-desc center"><em>Designer & Illustrator</em></h3>
 		<!--<img src="http://placehold.it/1055x560/38373d/FFFFFF" alt="img01" class="intro-img">-->
 		<img src="images/intro-img.svg" alt="img01" class="intro-img animated fadeIn">
 		<a href="#about" class="arrow"><img src="images/down-arrow.svg" alt="down arrow" class="down-arrow animated bounce"></a>
@@ -71,15 +69,15 @@
 			<p>Hey there! My name is Sarah Bootsma. I'm a designer and illustrator currently living in Ottawa, Canada. I'm a keen learner with a love for all types of design, but my biggest passions are illustration, branding, and mobile design. In all of my works, I strive to create authentic, creative, and timeless pieces–paying close attention to detail. When I'm not designing, you can catch me travelling, spending time with family, or curled up with a cup of tea watching netflix.</p>
 		</div>
 		<div class="icons">
-			<div class="icon-ill animated revealOnScroll" data-animation="flipInX">
+			<div class="icon-ill bounceInLeft">
 				<img class="icon-1" src="images/ill-icon.svg" alt="">
 				<p class="icon-title">Illustration</p>
 			</div>
-			<div class="icon-ill animated revealOnScroll" data-animation="flipInX-2">
+			<div class="icon-ill">
 				<img class="icon-2" src="images/brand-icon.svg" alt="">
 				<p class="icon-title">Branding</p>
 			</div>
-			<div class="icon-ill animated revealOnScroll" data-animation="flipInX-3">
+			<div class="icon-ill">
 				<img class="icon-3" src="images/mobile-web-icon.svg" alt="">
 				<p class="icon-title">Web & Mobile</p>
 			</div>
@@ -431,25 +429,26 @@
 			<div class="flexslider">
 				<ul class="slides">
 					<li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
+				      <img src="images/wander-intro.gif" alt=""/>
 				    </li>
 				    
 				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
+				      <img src="images/wander-intro-2.gif" alt=""/>
 				    </li>
 				    
 				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
+				      <img src="images/wander-logo.gif" alt=""/>
 				    </li>
 
 				    <li>
-				      <img src="http://placehold.it/300x300/" alt=""/>
+				      <img src="images/wander-lower.gif" alt=""/>
 				    </li>
 				  </ul>
 			</div>
 			<div class="project-desc">
 				<h5 class="project-title">Wander Broadcast Package</h5>
 				<p class="project-info">This is a broadcast package I created for a fictional tv channel called Wander. Wander is a reality travel channel, which features backpackers recorded stories and adventures. The package contains an opening title, bumper, transition, and a lower thirds.</p>
+				<p class="vimeo-link"><a href="http://vimeo.com/110676090" target="_blank">View On Vimeo</a></p>
 			</div>
 			</div>
 		</div>
@@ -494,7 +493,7 @@
 	<section class="contact" id="contact">
 		<h4 class="contact-title center">Let's Chat</h4>
 		<span class="border"></span>
-			<div class="icon-ill animated revealOnScroll" data-animation="flipInX">
+			<div class="icon-ill">
 				<img class="icon-2" src="images/icon-placeholder.svg" alt="">
 			</div>
 			<div class="contact-info center">
@@ -504,19 +503,19 @@
 		<div class="social-wrap">
 			<ul class="social">
 				<li>
-					<a class="ease-all" href="http://www.behance.com/sarahbootsma">
+					<a class="ease-all" href="http://www.behance.com/sarahbootsma"  target="_blank">
 					<i class="fa fa-behance"></i>
 					<span class="hide-text">Vimeo</span>
 					</a>
 				</li>	
 				<li>
-					<a class="ease-all" href="http://www.dribbble.com/sarahbootsma">
+					<a class="ease-all" href="http://www.dribbble.com/sarahbootsma"  target="_blank">
 					<i class="fa fa-dribbble"></i>
 					<span class="hide-text">Dribbble</span>
 					</a>
 				</li>
 				<li>
-					<a class="ease-all" href="https://vimeo.com/user16497048">
+					<a class="ease-all" href="http://vimeo.com/user16497048"  target="_blank">
 					<i class="fa fa-vimeo-square"></i>
 					<span class="hide-text">Vimeo</span>
 					</a>
@@ -534,6 +533,12 @@
 	<script src="js/main.js"></script>
 	<script src="flexslider/jquery.flexslider.js"></script>
 	<script src="js/slider.js"></script>
+	<script src="js/wow.min.js"></script>
 	<script src="http://ajax.aspnetcdn.com/ajax/modernizr/modernizr-2.7.2.js"></script>
+	<script>
+
+		new WOW().init();
+
+	</script>
 </body>
 </html>

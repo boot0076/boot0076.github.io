@@ -23,12 +23,6 @@ img{
     width: 100%;
 }
 
-/*REVEAL ON SCROLL*/
-
-.revealOnScroll{
-    opacity: 0;
-}
-
 /* HEADER */
 
 .header{
@@ -244,6 +238,31 @@ img{
     margin-top: -1.4rem;
 }
 
+.vimeo-link{
+    padding-bottom: 1rem;
+}
+
+.vimeo-link a{
+    text-decoration: none;
+    color: #38373d;
+    font-size: .8rem;
+    margin-left: 1.1rem;
+    font-weight: 500;
+    padding-bottom: 2px;
+    text-transform: uppercase;
+}
+
+.vimeo-link a:hover{
+    color: #e2a85d;
+    border-bottom: 3px solid #e2a85d;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
 /*ICONS SMALL*/
 
 .icons{
@@ -454,6 +473,8 @@ button:focus {
 
 .project-title{
     text-transform: uppercase;
+    padding-top: 3rem;
+    margin-left: 1rem;
     font-weight: 500;
     color: #38373d;
 }
@@ -461,14 +482,18 @@ button:focus {
 .project-info{
     font-family: "museo-slab", sans-serif;
     color: #38373d;
+    font-size: .8rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
     margin-top: -1rem;
     padding-top: 1rem;
 }
 
 .project-desc{
     width: 86%;
+    background-color: #eee;
     margin-left: 7.5%;
-    /*background-color: rgb(252,252,252);*/
+    margin-top: -2rem;
     height: auto;
     float: none;
 }
@@ -488,7 +513,7 @@ button:focus {
 }
 
 .work-details[data-state="open"]{
-    max-height: 50em;
+    max-height: 70em;
     -webkit-transition: all 200ms ease-in-out;
     -moz-transition: all 200ms ease-in-out;
     -o-transition: all 200ms ease-in-out;
@@ -616,7 +641,7 @@ button:focus {
 }
 
 .work-close{
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 .header{
@@ -775,6 +800,7 @@ button:focus {
     display: inline-block;
 }
 
+
 /*SLIDER & DESC*/
 
 .flexslider{
@@ -875,6 +901,7 @@ button:focus {
     margin-top: 6rem;
     font-size: 1.5rem;
 }
+
 }
 
 @media only screen and (min-width: 65em){
@@ -890,7 +917,7 @@ button:focus {
 }   
 
 .work-close{
-    margin-left: 3.8rem;
+    margin-left: 3rem;
 } 
 
 .grid li{
@@ -967,11 +994,17 @@ button:focus {
     align-items: stretch;
 }
 
+.project-title{
+    margin-top: -1rem;
+}
+
 .project-desc{
     padding-left: 1rem;
     width: 35%;
+    margin-top: 0;
     margin-right: 12%;
-    margin-left: 5px;
+    margin-left: 0;
+    background-color: #eee;
 }
 
 .project-name{
