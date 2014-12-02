@@ -9,7 +9,7 @@ h1 {
   text-align: center;
   font-size: 9em;
   margin-left: -3rem;
-  letter-spacing: -15px;
+  letter-spacing: -7px;
   font-weight: 300;
   text-shadow: rgb(192, 143, 79) 1px 1px,
     rgb(192, 143, 79) 2px 2px,
@@ -193,7 +193,9 @@ p a:hover{
 
 h1 {
   font-size: 15rem;
+  letter-spacing: -15px;
   margin-left: -3rem;
+  margin-top: 3rem;
   margin-bottom: 4rem;
 }
 
