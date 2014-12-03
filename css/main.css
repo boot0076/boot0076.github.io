@@ -375,7 +375,7 @@ img{
 .grid figcaption a{
     margin-top: -1rem;
     text-align: center;
-    padding: .6rem .3rem;
+    padding: .8rem .5rem;
     border-radius: 50%;
     font-size: .7rem;
     text-decoration: none;
@@ -462,7 +462,7 @@ button:focus {
 
 .flex-control-nav{
     z-index: 400000;
-    bottom: -5px;
+    bottom: 1px;
 }
 
 .flex-control-paging li a{
@@ -690,17 +690,17 @@ button:focus {
     float: left;
     margin-left: 2rem;
     margin-top: .1rem;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
 }
 
 .header.shrink img{
     display: block;
     margin-top: -.1rem;
     width: 60px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
 }
 
 .header nav{
@@ -715,15 +715,15 @@ button:focus {
     font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
-}
-
-.header.shrink nav a{
-    line-height: 60px;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+}
+
+.header.shrink nav a{
+    line-height: 60px;
 }
 
 /*SECTIONS MED/LRG */

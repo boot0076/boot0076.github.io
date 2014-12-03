@@ -1,6 +1,6 @@
 /* Scroll Sections
 ---------------------------------------------------------------------------- */
-$(function() {
+$(document).ready(function () {
   $('nav a').on('click',function(event){
     var $anchor = $(this);
                     
