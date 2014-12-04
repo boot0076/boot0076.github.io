@@ -33,6 +33,9 @@ $(function() {
   });
 });
 
+/*
+  $("nav").localScroll();
+*/
 
 /* Shrink Header
 ---------------------------------------------------------------------------- */
@@ -133,3 +136,4 @@ jQuery(document).ready(function() {
         offset: 100
        });                 
 });
+
