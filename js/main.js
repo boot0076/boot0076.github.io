@@ -116,6 +116,12 @@ jQuery(document).ready(function() {
         classToAdd: 'visible animated fadeInUp',
         offset: 300
        });
+
+    jQuery('.icon-hand').addClass("hidden").viewportChecker({
+        classToAdd: 'visible animated bounce',
+        offset: 300
+       });
+
         jQuery('.icon-title-1').addClass("hidden").viewportChecker({
         classToAdd: 'visible animated fadeInUp',
         offset: 100

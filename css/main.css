@@ -273,6 +273,16 @@ img{
 
 /*ICONS SMALL*/
 
+
+.icon-contact{
+    margin-top: 2.5rem;
+}
+
+.icon-hand{
+    margin-left: 30%;
+    width: 40%;
+}
+
 .icons{
     display: block;
     padding-top: 1.5rem;
@@ -826,6 +836,11 @@ button:focus {
     display: inline-block;
 }
 
+.icon-hand{
+    margin-left: 37%;
+    width: 25%;
+}
+
 
 /*SLIDER & DESC*/
 
@@ -918,6 +933,11 @@ button:focus {
 @media only screen and (min-width: 53em){
 .project-name{
     margin-top: 5.5rem;
+}  
+
+.icon-hand{
+    margin-left: 40%;
+    width: 20%;
 }
 
 }
@@ -1050,6 +1070,12 @@ button:focus {
     margin-top: 1rem;
     font-size: .9rem;
 }
+
+.icon-hand{
+    margin-left: 42.7%;
+    width: 15%;
+}
+
 }
 
 @media only screen and (min-width: 80em){
