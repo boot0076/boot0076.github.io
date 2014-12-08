@@ -1,11 +1,11 @@
-body { 
+body{ 
   background-color: #e2a85d; 
   color: #38373d;
   font-size: 100%;
   font-family: "brandon-grotesque",sans-serif;
 }
 
-h1 {  
+h1{  
   text-align: center;
   font-size: 9em;
   margin-left: -3rem;
@@ -164,7 +164,7 @@ h1 {
     rgb(226, 168, 93) 151px 151px;
 }
 
-p {
+p{
   padding-top: 1rem;
   text-align: center;
 }
@@ -191,7 +191,7 @@ p a:hover{
 
 @media only screen and (min-width: 37em){
 
-h1 {
+h1{
   font-size: 15rem;
   letter-spacing: -15px;
   margin-left: -3rem;

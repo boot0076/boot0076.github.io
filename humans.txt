@@ -7,8 +7,8 @@ Website: sarahbootsma.ca
 
 # THANKS
 
-Downloaded Code Thing © Some Person: http://codething.com
-Stock Image © Another Person: http://gettyimages.com
+Jquery // Easing & Flexslider Scripts
+Thomas Bradley // Helped code website
 
 # TOOLS
 Sublime Text Editor
