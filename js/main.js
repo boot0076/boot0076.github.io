@@ -69,7 +69,7 @@ $(document).ready(function() {
       $('.go-top').click(function(event) {
         event.preventDefault();
         
-      })
+      });
     });
 
 /* WORK SECTIONS
