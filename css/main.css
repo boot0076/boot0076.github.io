@@ -511,7 +511,7 @@ button:focus{
 .project-info{
     font-family: "museo-slab", sans-serif;
     color: #38373d;
-    font-size: .7rem;
+    font-size: .8rem;
     margin-left: 1rem;
     margin-right: 1.5rem;
     margin-top: -1rem;
@@ -520,9 +520,10 @@ button:focus{
 
 .project-desc{
     width: 86%;
-    background-color: #fafafa;
+    background-color: #fcfcfb;
     margin-left: 7.5%;
-    margin-top: -2rem;
+    padding-bottom: .5rem;
+    margin-top: -1.5rem;
     height: auto;
     float: none;
 }
@@ -855,7 +856,7 @@ button:focus{
 }
 
 .project-name{
-    margin-top: 2.3rem;
+    margin-top: 4.3rem;
 }
 
 .grid figcaption a{
@@ -1090,13 +1091,13 @@ button:focus{
 }
 
 .project-name{
-    margin-top: 2.5rem;
-    font-size: 1rem;
+    margin-top: 2.2rem;
+    font-size: 1.2rem;
 }
 
 .project-tag{
     margin-bottom: .5rem;
-    font-size: .8rem;
+    font-size: .7rem;
 }
 
 .about-para{
