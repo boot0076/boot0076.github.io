@@ -500,6 +500,7 @@ button:focus{
 }
 
 .project-tag{
+    font-family: "freight-text-pro",sans-serif;
     color: #fff;
     margin-top: -1rem;
     padding-bottom: 1rem;
