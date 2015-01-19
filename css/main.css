@@ -36,7 +36,7 @@ img{
 
 .header{
     width: 100%;
-    height: 200px;
+    height: 160px;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -61,12 +61,12 @@ img{
 }
 
 .header.shrink nav{
-    line-height: 2rem;
+    line-height: 2.5rem;
 }
 
 .logo{
-    width: 90px;
-    margin-top: 1.5rem;
+    width: 100px;
+    margin-top: .8rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -87,13 +87,13 @@ img{
 }
 
 .header nav{
-    line-height: 3rem;
+    line-height: 2rem;
 }
 
 .header nav a{
     margin-left: 20px;
     color: #38373d;
-    font-weight: 500;
+    font-weight: 400;
     text-transform: uppercase;
     text-decoration: none;
     -webkit-transition: all 0.3s;
@@ -105,7 +105,6 @@ img{
 
 .header nav a:hover{
     color: #e2a85d;
-    border-bottom: 4px solid #e2a85d;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -115,28 +114,29 @@ img{
 
 /*SECTIONS SMALL*/
 
+.main-banner {
+    background: transparent url("../images/banner-img.png") no-repeat center top;
+    background-size: cover;
+    padding: 5.5rem 0;
+}
+
 .intro-img{
     padding-top: 2rem;
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
 }
 
 #intro{
-    background-color: #38373d;
-    width: 100%;
-    margin-top: -3rem;
+    margin-top: 10rem;
 }
 
 .welcome{
     color: #fff;
-    margin-top: 15.5rem;
-    padding-top: 2rem;
-    font-size: 1.8rem; 
+    font-size: 1rem; 
     text-align: center;
 }
 
 .welcome-desc{
-    font-family: "museo-slab", sans-serif;
+    font-family: "freight-text-pro",sans-serif;
     color: #fff;
     margin-top: -1rem;
     text-align: center;
@@ -145,39 +145,40 @@ img{
 #about{
     background-color: #e2a85d;
     width: 100%;
-    padding: 4rem 0;
+    padding: 2rem 0;
     text-align: center;
 }
 
 #work{
     background-color: #fff;
     width: 100%;
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 
 #contact{
     background-color: #42ae9a;
     width: 100%;
-    padding: 6rem 0;  
+    padding: 4rem 0;  
 }
 
 .about-title{
     color: #38373d;
     text-transform: uppercase;
+    font-size: 1.8rem;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
 }
 
 .about-para{
-    font-family: "museo-slab", sans-serif;
+    font-family: "freight-text-pro",sans-serif;
     color: #38373d;
     padding-top: 2rem;
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
 
 .contact-para-top{
-    font-family: "museo-slab", sans-serif;
+    font-family: "freight-text-pro",sans-serif;
     color: #fff;
     padding-bottom: .5rem;
     margin-left: 10%;
@@ -185,7 +186,7 @@ img{
 }
 
 .contact-para-btm{
-    font-family: "museo-slab", sans-serif;
+    font-family: "freight-text-pro",sans-serif;
     color: #fff;
     margin-top: -1rem;
     margin-left: 10%;
@@ -194,12 +195,14 @@ img{
 
 .work-title{
     color: #38373d;
+    font-size: 1.8rem;
     margin-top: -1rem;
     margin-bottom: 1.5rem;
 }
 
 .contact-title{
     margin-top: 0;
+    font-size: 1.8rem;
     color:#fff;
     padding-bottom: .5rem;
 }
@@ -511,7 +514,7 @@ button:focus{
 }
 
 .project-info{
-    font-family: "museo-slab", sans-serif;
+    font-family: "freight-text-pro",sans-serif;
     color: #38373d;
     font-size: .8rem;
     margin-left: 1rem;
@@ -652,7 +655,17 @@ button:focus{
     margin-top: 1.5rem;
 }
 
+@media only screen and (min-width: 30em){
+.main-banner {
+    padding: 7rem 0;
+}
+}
+
 @media only screen and (min-width: 37em){
+
+.main-banner {
+    padding: 7rem;
+}
 
 .down-arrow{
     display: block;
@@ -665,7 +678,8 @@ button:focus{
 
 .welcome{
     margin-top: 0;
-    font-size: 2.6rem;
+    padding-top: 2rem;
+    font-size: 1.2rem;
 }
 
 .welcome-desc{
@@ -678,7 +692,7 @@ button:focus{
 
 .header{
     width: 100%;
-    height: 130px;
+    height: 115px;
     overflow: hidden;
     position: fixed;
     top: 0;
@@ -693,14 +707,14 @@ button:focus{
 }
 
 .header.shrink{
-    height: 90px;
+    height: 80px;
 }
 
 .logo{
-    width: 90px;
+    width: 115px;
     float: left;
     margin-left: 2rem;
-    margin-top: .1rem;
+    margin-top: -.3rem;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
     -ms-transition: all 0.3s;
@@ -710,8 +724,8 @@ button:focus{
 
 .header.shrink img{
     display: block;
-    margin-top: -.1rem;
-    width: 60px;
+    margin-top: -.2rem;
+    width: 70px;
 }
 
 .header nav{
@@ -721,9 +735,10 @@ button:focus{
 }
 
 .header nav a{
-    line-height: 100px;
+    line-height: 90px;
     margin-left: 20px;
     font-weight: 400;
+    letter-spacing: 1.5px;
     text-transform: uppercase;
     text-decoration: none;
     -webkit-transition: all 0.3s;
@@ -734,7 +749,7 @@ button:focus{
 }
 
 .header.shrink nav a{
-    line-height: 60px;
+    line-height: 50px;
 }
 
 /*SECTIONS MED/LRG */
@@ -742,14 +757,6 @@ button:focus{
 .intro-img{
     padding-top: 1rem;
     padding-bottom: 2rem;
-}
-
-.welcome{
-    padding-top: 12rem;
-}
-
-.welcome-desc{
-    font-size: 1.2rem;
 }
 
 .about-title{
@@ -765,9 +772,9 @@ button:focus{
 }
 
 #intro{
+    margin-top: 7rem;
     position: relative;
     width: 100%;
-    margin-top: -3rem;
 }
 
 #about{
@@ -869,6 +876,18 @@ button:focus{
 
 @media only screen and (min-width: 45em){
 
+#intro{
+    margin-top: 6.5rem;
+}
+
+.welcome{
+    font-size: 1.6rem;
+}
+
+.main-banner{
+    padding: 11.5rem;
+}
+
 .down-arrow{
     width: 4%;
     margin-top: 1rem;
@@ -943,6 +962,7 @@ button:focus{
 }
 
 @media only screen and (min-width: 58em){
+
 .project-name{
     margin-top: 6rem;
     font-size: 1.5rem;
@@ -1065,6 +1085,10 @@ button:focus{
 
 @media only screen and (min-width: 70em){
 
+.main-banner{
+    padding: 13rem;
+}
+
 .project-name{
     margin-top: 1rem;
     font-size: .9rem;
@@ -1078,6 +1102,18 @@ button:focus{
 }
 
 @media only screen and (min-width: 80em){
+
+#intro{
+    margin-top: 5.5rem;
+}
+
+.main-banner{
+    padding: 17rem;
+}
+
+.welcome{
+    font-size: 2rem;
+}
 
 .intro-img{
     width: 65%;
