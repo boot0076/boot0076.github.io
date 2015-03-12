@@ -388,23 +388,26 @@ img{
 .grid figcaption a{
     margin-top: -1rem;
     text-align: center;
-    padding: .8rem .5rem;
+    padding: .7rem .4rem;
     border-radius: 50%;
-    font-size: .7rem;
+    letter-spacing: 1px;
+    font-size: .5rem;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
     border: 2px solid #fff;
     color: #fff;
+
+    -webkit-transition: all 200ms ease-in-out;
+    -moz-transition: all 200ms ease-in-out;
+    -o-transition: all 200ms ease-in-out;
+    -ms-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .grid figcaption a:hover{
     color: #38373d;
-}
-
-.grid figcaption a:hover{
     background-color: #fff;
-    border: none;
 }
 
 .thumb-style figcaption{
