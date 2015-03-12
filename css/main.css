@@ -769,7 +769,7 @@ button:focus{
 }
 
 .contact-title{
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 #intro{
@@ -1130,8 +1130,8 @@ button:focus{
 }
 
 .project-name{
-    margin-top: 2.2rem;
-    font-size: 1.2rem;
+    margin-top: 3rem;
+    font-size: .9rem;
 }
 
 .project-tag{
