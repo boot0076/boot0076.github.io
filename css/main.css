@@ -65,7 +65,7 @@ img{
 }
 
 .logo{
-    width: 150px;
+    width: 100px;
     margin-top: .8rem;
     display: block;
     margin-left: auto;
@@ -115,7 +115,7 @@ img{
 /*SECTIONS SMALL*/
 
 .main-banner {
-    background: transparent url("../images/banner-img.png") no-repeat center top;
+    background: transparent url("") no-repeat center top;
     background-size: cover;
     padding: 5.5rem 0;
 }
